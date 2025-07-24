@@ -33,7 +33,7 @@ This project provides a simple yet powerful interface to extract text from PDFs 
 ```
 pdf-parser-exporter/
 ├── pdf_utils.py        # Core utility for extracting and formatting text
-├── streamlit_app.py    # GUI app built using Streamlit
+├── app.py    # GUI app built using Streamlit
 ├── cli_app.py          # Command-line interface version
 ├── .streamlit/
 │   └── config.toml     # Theme configuration for Streamlit UI
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 ## 💻 Option 1: Run the Streamlit App
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
 This will launch a web interface where you can:
